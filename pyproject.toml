@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flitch"
+version = "0.1.0"
+description = "A simple text file splitting utility"
+authors = ["Altynbek Orumbayev <aorumbayev@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+black = {version = "^19.10b0", allow-prereleases = true}
+pylint = "^2.4.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
