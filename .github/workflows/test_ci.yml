@@ -56,3 +56,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: html/flitch # The folder the action should deploy.
+          COMMIT_MESSAGE: 🚀 [CI] Auto updating GH Pages
