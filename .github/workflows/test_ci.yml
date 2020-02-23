@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 jobs:
-  test:
+  build-test-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -44,3 +44,15 @@ jobs:
 
       - name: Test with pytest
         run: poetry run pytest --cov flitch
+
+      - name: Build Docs
+        if: github.ref == 'refs/heads/feature/pdoc3'
+        run: poetry run pdoc3 --html flitch
+
+      - name: Deploy Docs
+        if: github.ref == 'refs/heads/feature/pdoc3'
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: html/flitch # The folder the action should deploy.
