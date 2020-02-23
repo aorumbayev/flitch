@@ -40,7 +40,7 @@ jobs:
       - name: Code Quality
         run: |
           poetry run black . --check
-          isort -rc --check-only .
+          poetry run isort -rc --check-only .
 
       - name: Test with pytest
         run: poetry run pytest --cov flitch
