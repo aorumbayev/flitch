@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+ <a href="https://opensource.org/licenses/MIT"><img src="https://github.com/aorumbayev/flitch/workflows/CI/badge.svg?branch=dev"></a>
  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 </p>
 
