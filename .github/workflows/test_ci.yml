@@ -46,11 +46,11 @@ jobs:
         run: poetry run pytest --cov flitch
 
       - name: Build Docs
-        if: github.ref == 'refs/heads/feature/pdoc3'
+        if: github.ref == 'refs/heads/master'
         run: poetry run pdoc3 --html flitch
 
       - name: Deploy Docs
-        if: github.ref == 'refs/heads/feature/pdoc3'
+        if: github.ref == 'refs/heads/master'
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
