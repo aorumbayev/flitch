@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flitch"
-version = "0.1.2"
+version = "0.1.3"
 description = "A simple text file splitting utility"
 authors = ["Altynbek Orumbayev <aorumbayev@protonmail.com>"]
 
