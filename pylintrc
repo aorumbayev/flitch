@@ -1,6 +1,0 @@
-[MESSAGES CONTROL]
-
-disable=
-    bad-continuation,
-    missing-module-docstring
-
