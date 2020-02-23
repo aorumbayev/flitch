@@ -3,6 +3,9 @@
 </p>
 
 <p align="center">
+ <a href="https://opensource.org/licenses/MIT"><img src="https://github.com/aorumbayev/flitch/workflows/CI/badge.svg?branch=dev"></a>
+ <a href="https://badge.fury.io/py/flitch"><img src="https://badge.fury.io/py/flitch.svg" alt="PyPI version" height="18"></a>
+ <a href="https://aorumbayev.github.io/flitch/"><img src="https://img.shields.io/badge/Documentation-pdoc-Blue.svg" alt="pdoc" /></a>
  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 </p>
 
