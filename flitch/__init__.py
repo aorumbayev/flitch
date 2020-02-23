@@ -1,4 +1,7 @@
-"""A collection of simple file splitting tools"""
+"""A collection of simple file splitting tools
+
+.. include:: ../README.md
+"""
 __version__ = "0.1.2"
 
 # Local
